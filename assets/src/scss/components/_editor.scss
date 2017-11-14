@@ -1,0 +1,21 @@
+.acfeditor {
+
+
+	background-color: blue;
+	padding: 2em;
+	height: 100vh;
+	width: 30vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transform: translateX(-30vw);
+	transition: 200ms all;
+
+	color: white;
+
+	&.-active {
+		transform: translateX(0vw);
+	}
+
+
+}
